@@ -43,9 +43,9 @@
   },
   "jspm": {
     "main": "index",
-    "format": "amd",
+    "format": "es6",
     "directories": {
-      "lib": "dist/amd"
+      "lib": "dist/es6"
     },
     "dependencies": {
       "materialize": "npm:materialize-css@0.97.3"
