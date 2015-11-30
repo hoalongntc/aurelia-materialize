@@ -8,7 +8,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 require('materialize/dist/js/materialize');
 
-require('materialize/dist/css/materialize.css');
+require('materialize/dist/css/materialize.css!css');
 
 var AureliaMaterialize = function AureliaMaterialize() {
   _classCallCheck(this, AureliaMaterialize);
