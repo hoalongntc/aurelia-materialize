@@ -1,22 +1,22 @@
 {
-  "name": "aurelia-skeleton-plugin",
-  "version": "0.3.0",
-  "description": "A starter kit for building an Aurelia plugin.",
+  "name": "aurelia-materialize",
+  "version": "0.0.1",
+  "description": "materialize-css plugin for aurelia",
   "keywords": [
     "aurelia",
     "plugin",
-    "skeleton"
+    "materialize"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-plugin/issues"
+    "url": "https://github.com/hoalongntc/aurelia-materialize/issues"
   },
   "license": "CC0-1.0",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "Tung Nguyen <developer.tungnguyen@gmail.com>",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-plugin"
+    "url": "http://github.com/hoalongntc/aurelia-materialize"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.3",
