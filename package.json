@@ -48,6 +48,8 @@
       "lib": "dist/es6"
     },
     "dependencies": {
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.2",
+      "jquery": "npm:jquery@^2.1.4",
       "materialize": "npm:materialize-css@0.97.3"
     },
     "devDependencies": {
