@@ -10,6 +10,7 @@ This is materialize-css plugin of aurelia.
   jspm install hoalongntc/aurelia-materialize
   ```
 2. Register plugin in your `main.js`
+
   ```shell
   ...
   aurelia.use.plugin('aurelia-materialize');
@@ -22,6 +23,7 @@ This is materialize-css plugin of aurelia.
 Javascript components are now available as `customAttribute`:
 
 1. SizeNav: `md-size-nav`
+
   ``` 
   <nav>
     <ul class="right hide-on-med-and-down">
