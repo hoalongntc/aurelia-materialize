@@ -6,9 +6,7 @@ Object.defineProperty(exports, '__esModule', {
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 
-require('materialize/dist/js/materialize');
-
-require('materialize/dist/css/materialize.css!css');
+require('materialize-css');
 
 var AureliaMaterialize = function AureliaMaterialize() {
   _classCallCheck(this, AureliaMaterialize);

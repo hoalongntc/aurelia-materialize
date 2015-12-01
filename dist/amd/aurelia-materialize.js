@@ -1,4 +1,4 @@
-define(['exports', 'materialize/dist/js/materialize', 'materialize/dist/css/materialize.css!css'], function (exports, _materializeDistJsMaterialize, _materializeDistCssMaterializeCssCss) {
+define(['exports', 'materialize-css'], function (exports, _materializeCss) {
   'use strict';
 
   Object.defineProperty(exports, '__esModule', {

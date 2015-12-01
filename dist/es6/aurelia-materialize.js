@@ -1,6 +1,3 @@
-import 'materialize/dist/js/materialize';
-import 'materialize/dist/css/materialize.css!css';
+import 'materialize-css'
 
-export class AureliaMaterialize {
-
-}
+export class AureliaMaterialize { }

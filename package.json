@@ -48,8 +48,10 @@
       "lib": "dist/commonjs"
     },
     "dependencies": {
+      "css": "github:systemjs/plugin-css@0.1.19",
+      "hammerjs": "github:hammerjs/hammer.js@^2.0.4",
       "jquery": "github:components/jquery@^2.1.4",
-      "materialize": "npm:materialize-css@0.97.3"
+      "materialize-css": "npm:materialize-css@0.97.3"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
@@ -58,7 +60,14 @@
     },
     "overrides": {
       "npm:materialize-css@0.97.3": {
-        "format": "global"
+        "main": "dist/js/materialize",
+        "shim": {
+          "dist/js/materialize": [
+            "jquery",
+            "hammerjs",
+            "../css/materialize.css!css"
+          ]
+        }
       }
     }
   }
