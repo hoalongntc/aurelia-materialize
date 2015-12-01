@@ -48,7 +48,7 @@
       "lib": "dist/commonjs"
     },
     "dependencies": {
-      "jquery": "npm:jquery@^2.1.4",
+      "jquery": "github:components/jquery@^2.1.4",
       "materialize": "npm:materialize-css@0.97.3"
     },
     "devDependencies": {
