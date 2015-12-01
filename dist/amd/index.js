@@ -7,6 +7,7 @@ define(['exports'], function (exports) {
   exports.configure = configure;
 
   function configure(config) {
-    config.globalResources(['./aurelia-materialize', './resources/side-nav']);
+    config.aurelia.use.plugin('materialize-css');
+    config.globalResources(['./resources/side-nav']);
   }
 });

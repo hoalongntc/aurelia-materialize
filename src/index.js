@@ -1,6 +1,6 @@
 export function configure(config) {
+  config.aurelia.use.plugin('materialize-css');
   config.globalResources([
-    './aurelia-materialize',
     './resources/side-nav'
   ]);
 }
