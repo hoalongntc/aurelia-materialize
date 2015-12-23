@@ -3,18 +3,43 @@
 	{
 		"selected_items":
 		[
+			[
+				"Mate",
+				"materialize-css"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "node_modules\njspm_packages\nbower_components\n.idea\n.DS_STORE\nbuild/reports\n*.",
-			"file": ".gitignore",
-			"file_size": 74,
-			"file_write_time": 130933681780000000,
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 76,
+				"buffer_size": 879,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resources/collapsible.js",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/resources/side-nav.js",
+			"settings":
+			{
+				"buffer_size": 278,
 				"line_ending": "Unix"
 			}
 		}
@@ -51,10 +76,26 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/hoalong/JsProjects/aurelia-materialize"
+		"/Users/hoalong/JsProjects/aurelia-materialize",
+		"/Users/hoalong/JsProjects/aurelia-materialize/build",
+		"/Users/hoalong/JsProjects/aurelia-materialize/build/tasks",
+		"/Users/hoalong/JsProjects/aurelia-materialize/dist/amd",
+		"/Users/hoalong/JsProjects/aurelia-materialize/node_modules/.bin",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src/resources"
 	],
 	"file_history":
 	[
+		"/Users/hoalong/JsProjects/aurelia-materialize/doc/CHANGELOG.md",
+		"/Users/hoalong/JsProjects/aurelia-materialize/package.json",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src/aurelia-materialize.js",
+		"/Users/hoalong/JsProjects/aurelia-materialize/CONTRIBUTING.md",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src/resources/size-nav.js",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src/index.js",
+		"/Users/hoalong/JsProjects/aurelia-materialize/dist/es6/resources/size-nav.js",
+		"/Users/hoalong/JsProjects/aurelia-materialize/dist/commonjs/index.js",
+		"/Users/hoalong/JsProjects/aurelia-materialize/src/hello-world.html",
+		"/Users/hoalong/JsProjects/aurelia-materialize/.gitignore",
 		"/Users/hoalong/JsProjects/try-aurelia/src/example/nav-bar.js",
 		"/Users/hoalong/JsProjects/try-aurelia/src/resources/materialize/size-nav.js",
 		"/Users/hoalong/JsProjects/try-aurelia/package.json",
@@ -206,35 +247,122 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 76,
+						"buffer_size": 879,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								76,
-								76
+								174,
+								174
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/resources/collapsible.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146,
+								146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/resources/side-nav.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
